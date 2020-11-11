@@ -13,7 +13,7 @@ export class AuthService {
   // https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
 
   private url = 'https://identitytoolkit.googleapis.com/v1/accounts:';
-  private apiKey = 'AIzaSyBpZf1kTOSwZelgVTMu-uej3XUkPzI7Eo0';
+  private apiKey = '';
   private userToken: string;
 
   constructor(private http: HttpClient) {
